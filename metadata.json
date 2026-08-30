@@ -1,0 +1,6 @@
+{
+  "name": "BuildAI Africa Pitch Deck",
+  "description": "Interactive pitch deck and presentation engine for BuildAI Africa with native Google Slides integration, presenter mode, AI pitch rehearsal, and feasibility simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
