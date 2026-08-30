@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages hosts this project below /Build-smart-africa/ rather than
+    // at the domain root, so production assets need the repository prefix.
+    base: process.env.GITHUB_ACTIONS ? '/Build-smart-africa/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
